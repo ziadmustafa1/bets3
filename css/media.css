@@ -1,0 +1,344 @@
+@media (max-width:1050px) {
+    header{
+         padding: 15px 100px;
+    }
+    .home .col-img img{
+        position: relative;
+        left: 110px;
+    }
+    .case .cse-row{
+      padding: 0 100px;
+    }
+    .dis .container .content{
+         padding: 40px 90px;
+    }
+    .product .container .row{
+         margin: 0 90px;
+    }
+}
+@media (max-width:991px){
+    header{
+         padding: 15px 70px;
+    }
+    .home .col-text h1{
+        font-size: 90px;
+    }
+    .home .col-text h2{
+        font-size: 40px;
+    }
+    .home .col-img img{
+        position: relative;
+        left: 30px;
+        width: 280px;
+    }
+    .amazon .row-img img{
+        width: 110px;
+    }
+    .amazon .row-img{
+          padding-left: 90px;
+    }
+    .space .space-row{
+         padding: 0 150px;
+    }
+    .space{
+         padding-bottom: 0;
+          min-height: 80vh;
+    }
+    .space .space-row img{
+        width: 300px;
+    }
+    .case .cse-row{
+      padding: 0 40px;
+    }
+    .case .img-col img{
+         width: 260px;
+    }
+    .case h1{
+        font-size: 60px
+    }
+    .case{
+        padding-bottom: 0;
+    }
+    .dis{
+        min-height: 60vh;
+         padding: 30px 70px 0;
+    }
+    .dis .container .content{
+        padding: 40px 50px;
+    }
+    .dis .container .image img{
+    width: 290px;
+}
+.dis .container .row .row-tex h2{
+    font-size: 30px;
+}
+ .product .container .row{
+          
+         margin: 0 0px;
+
+    
+    }.product .shop-box .box .box-b{
+        padding: 20px;
+        margin-right: 30px;
+        width: 100%;
+         height: 200px;
+    }   
+    input{
+        width: 90%;
+    } 
+    
+.amazon .row-img {
+    display: flex !important;
+    justify-content: start !important;
+}
+.amazon .row-img .co-img3{
+    position: absolute;
+    
+}
+.row-img img{
+    width: 200px;
+    padding: 15px;
+}
+}
+.space .space-row .box-icon1 {
+     margin-left: 0px;
+}
+ @media (max-width:771px){
+    header{
+         padding: 15px 15px;
+    }
+    #menu{
+        display: initial;
+    }
+    nav {
+        position: absolute;
+        top: -570%;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        row-gap: 1.4rem;
+        transition: .3s ease;
+        z-index: 3333;
+
+    }
+    nav.navbar{
+        top :100%
+    }
+     .home{
+        padding-bottom: 50px;
+     }
+     .home .col-img img{
+        left: 140px;
+        width: 280px;
+        top: -320px;
+    }
+    .home .col-text{
+         position: relative;
+         top: 10px;
+        }
+        .space .space-row{
+             padding: 0 30px;
+        }
+        .space .space-row img{
+        width: 270px;
+    }
+    .case .cse-row{
+      padding: 0 ;
+    }
+    .case .img-col img{
+         width: 220px;
+    }
+    .dis{
+        width: 100%;
+        min-height: 80vh;
+        padding: 30px 30px 0;
+    }
+    .dis .container .content{
+        padding: 10px 10px;
+        width: 200px;
+        margin: auto;
+        min-height: 250px;
+    }
+    .dis .container .image img{
+        width: 240px;
+    }
+    .dis .container .row .row-tex h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .dis .container .row .row-tex h6{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+   
+   
+    
+}
+@media (max-width:590px){
+    header{
+         padding: 15px 20px;
+         position: fixed;
+         top: 0;
+         left: 0;
+         right: 0;
+         width: 100%;
+    }
+    #menu{
+        display: initial;
+    }
+    nav {
+        position: absolute;
+        top: -570%;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        row-gap: 1.4rem;
+        width: 100%;
+        
+        
+
+    }
+    nav.navbar{
+        top :100%;
+
+        
+    }
+     .home{
+        overflow: hidden;
+        position: relative;
+     }
+     .home .col-img img{
+        position: absolute;
+        left: 140px;
+        width: 280px;
+        top: -340px;
+    }
+    .home .col-text{
+         position: absolute;
+         top: 10px;
+        }
+        
+        .amazon .row-img .co-img2{
+            
+            left: 150px;
+        }
+        .amazon .row-img .co-img3{
+            
+            left: 280px;
+            bottom: 45px;
+        }
+        .amazon .row-img{
+            padding-left: 20px;
+            
+            
+           
+           
+        }
+        .space .container{
+            overflow: hidden;
+        }
+        .space .space-row{
+             padding: 0 20px ;
+             
+        }
+        .space .space-row img{
+        width: 250px;
+        bottom: 120px;
+        left: 190px;
+    }
+    .case{
+        min-height: 90vh;
+    }
+    .case .container{
+        overflow: hidden;
+    }
+    .case .cse-row{
+      padding: 0 ;
+      
+    }
+    .case .img-col img{
+         width: 200px;
+    }
+    .case .cse-row .text-col h5{
+       
+        font-size: 19px;
+    }
+    .case .cse-row .text-col {
+        position: absolute;
+        bottom: 10px;
+        left: 210px;
+    }
+    .dis{
+        width: 100%;
+        min-height: 70vh;
+        padding: 30px 10px 0;
+    }
+    .dis .container{
+        margin: auto;
+    }
+    .dis .container {
+        overflow: hidden;
+    }
+    .dis .container .content{
+        padding: 10px 10px;
+        width: 100px;
+        margin: auto;
+        max-height: 250px;
+        overflow: hidden;
+        position: relative;
+    }
+    .dis .container{
+        overflow: hidden;
+    }
+    .dis .container .image img{
+        width: 250px;
+        
+        bottom: 0px ;
+        left: 250px;
+    }
+    .dis .container .row .row-tex h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .dis .container .row .row-tex h6{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .product .shop-box .box img{
+        width: 120px;
+        position: relative;
+    left: 30px;
+    bottom:60px ;
+    }
+    .product .shop-box .box .box-b{
+        padding: 20px;
+        margin-right: 15px;
+        width: 210px;
+         height: 200px;
+        
+    }
+    .product .container .row{
+          
+        padding: 0 20px;
+    }
+    .product .box-row{
+        position: relative;
+    }
+    
+    footer .container{
+        padding: 40px;
+    }
+    .footer .row .foot{
+        margin-bottom: 30px;
+    }
+
+   
+    
+    
+}
